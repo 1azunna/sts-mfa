@@ -20,7 +20,7 @@ Example: aws-mfa.sh --user Bob --token 012345
 Arguments:
    -u | --user : AWS IAM username to obtain MFA ARN for
    -t | --token : OTP from MFA device
-   -p | --profile : aws-cli profile usually in /Users/aikonne/.aws/config
+   -p | --profile : aws-cli profile 
    -d | --duration : Duration of temporary AWS credentials in seconds
    -h | --help : Command Usage
 ```
