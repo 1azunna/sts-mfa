@@ -6,7 +6,7 @@ A simple script to generate temporary aws credentials with mfa.
 To be able to execute the script from any location, execute
 ```
 chmod +x sts-mfa/sts-mfa.sh
-- ln -s sts-mfa/sts-mfa.sh /usr/local/bin/sts-mfa.sh
+ln -s sts-mfa/sts-mfa.sh /usr/local/bin/sts-mfa.sh
 echo PATH=~/sts-mfa/ >> /etc/environment
 ```
 # Usage
