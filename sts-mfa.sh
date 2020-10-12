@@ -120,7 +120,6 @@ while test $# -gt 0; do
   esac
 done
 
-echo $TOKEN
 
 echo "Obtaining MFA ARN ....."
 getMFA_ID
