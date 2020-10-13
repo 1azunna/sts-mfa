@@ -12,11 +12,11 @@ echo PATH=~/sts-mfa/ >> /etc/environment
 # Usage
 
 ```
-Usage: aws-mfa.sh --user <AWS_IAM_USERNAME> --token <MFA_TOKEN> --profile <AWS_CLI_PROFILE> [Optional]
+Usage: sts-mfa.sh --user <AWS_IAM_USERNAME> --token <MFA_TOKEN> --profile <AWS_CLI_PROFILE> [Optional]
 
-Example: aws-mfa.sh --user Bob --token 012345
+Example: sts-mfa.sh --user Bob --token 012345
          or
-         aws-mfa.sh --user Bob --token 012345 --profile Bob
+         sts-mfa.sh --user Bob --token 012345 --profile Bob
 Arguments:
    -u | --user : AWS IAM username to obtain MFA ARN for
    -t | --token : OTP from MFA device
