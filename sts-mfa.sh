@@ -24,7 +24,7 @@ function usage () {
   echo "   -d | --duration : Duration of temporary AWS credentials in seconds"
   echo "   -h | --help : Command Usage"
 }
-# Check that there is at least one argument
+# Check that there are at least two arguments
 if [[ $# -lt 2 && -gt 8 ]]; then
   usage
   exit 2
