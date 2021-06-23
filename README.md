@@ -2,7 +2,7 @@
 
 A simple script to generate temporary aws credentials with mfa.
 
-# Installtion
+# Installation
 To be able to execute the script from any location, execute
 ```
 chmod +x sts-mfa/sts-mfa.sh
